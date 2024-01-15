@@ -18,7 +18,7 @@ namespace Api.Server.Controllers
         }
 
         [HttpGet("ChargePoint/{id}")]
-        public async Task<ChargePoint> Get(string id)
+        public async Task<ChargePoint> GetChargePoint(string id)
         {
             var grain = clusterClient.GetGrain<IChargePointGrain>(id);
             var res = await grain.GetAsync();
@@ -26,9 +26,17 @@ namespace Api.Server.Controllers
         }
 
         [HttpGet("Connector/{id}")]
-        public async Task<Connector> Get(int id)
+        public async Task<Connector> GetConnector(int id)
         {
             var grain = clusterClient.GetGrain<IConnectorGrain>(id);
+            var res = await grain.GetAsync();
+            return res;
+        }
+
+        [HttpGet("StatusGrain/{id}")]
+        public async Task<ChargePointStatus> GetStatus(string id)
+        {
+            var grain = clusterClient.GetGrain<IStatusGrain>(id);
             var res = await grain.GetAsync();
             return res;
         }
