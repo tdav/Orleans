@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Server", "Api.Server\Api.Server.csproj", "{0DEEEED5-3AC1-40DA-A041-874DEC1947AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ws16.Server", "Ws16.Server\Ws16.Server.csproj", "{95EED6AE-570D-405C-98C4-73D814F0B978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo.Server", "Silo.Server\Silo.Server.csproj", "{ADC47816-9634-4362-A3B8-403CA6A191B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "Grains\Grains.csproj", "{8EB7DCE0-ED5A-4277-B94B-9AE55F996FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{FD5B55B5-CA5A-4500-BC6B-AA82D35C489C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAECE570-5538-4DBB-B0C0-7F5CFF79990E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstraction", "Abstraction\Abstraction.csproj", "{CA256163-8424-4047-A069-A1F3DDA36539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEEEED5-3AC1-40DA-A041-874DEC1947AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEEEED5-3AC1-40DA-A041-874DEC1947AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEEEED5-3AC1-40DA-A041-874DEC1947AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEEEED5-3AC1-40DA-A041-874DEC1947AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EED6AE-570D-405C-98C4-73D814F0B978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EED6AE-570D-405C-98C4-73D814F0B978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EED6AE-570D-405C-98C4-73D814F0B978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EED6AE-570D-405C-98C4-73D814F0B978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC47816-9634-4362-A3B8-403CA6A191B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC47816-9634-4362-A3B8-403CA6A191B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC47816-9634-4362-A3B8-403CA6A191B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC47816-9634-4362-A3B8-403CA6A191B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB7DCE0-ED5A-4277-B94B-9AE55F996FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB7DCE0-ED5A-4277-B94B-9AE55F996FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB7DCE0-ED5A-4277-B94B-9AE55F996FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB7DCE0-ED5A-4277-B94B-9AE55F996FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5B55B5-CA5A-4500-BC6B-AA82D35C489C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5B55B5-CA5A-4500-BC6B-AA82D35C489C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5B55B5-CA5A-4500-BC6B-AA82D35C489C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5B55B5-CA5A-4500-BC6B-AA82D35C489C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA256163-8424-4047-A069-A1F3DDA36539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA256163-8424-4047-A069-A1F3DDA36539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA256163-8424-4047-A069-A1F3DDA36539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA256163-8424-4047-A069-A1F3DDA36539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A977AFAB-223A-4230-A3D4-3A5E86D0BF05}
+	EndGlobalSection
+EndGlobal
